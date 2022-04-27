@@ -1,0 +1,70 @@
+.projects {
+  padding: 6rem 1rem;
+}
+
+.projects .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: wrap;
+  padding: 2rem 0;
+}
+
+.projects .box-container .box {
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.projects .box-container .box a {
+  text-decoration: none;
+  color: #222;
+}
+
+.projects .box-container .box img {
+  height: 100%;
+  width: 110%;
+  object-fit: cover;
+}
+
+.projectTitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.projectDesc {
+  font-size: 1rem;
+}
+
+.projects .box-container .box:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .projects .box-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects .box-container .box {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .projects .box-container .box {
+    width: 18rem;
+    margin-left: 45px;
+  }
+
+  .projects .box-container .box img {
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+  }
+}

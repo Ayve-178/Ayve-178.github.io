@@ -1,0 +1,105 @@
+.contact {
+  padding: 5rem;
+}
+
+.contact form {
+  margin: 1rem auto;
+  max-width: 50rem;
+  border-radius: 0.2rem;
+  padding: 1.5rem;
+}
+
+.contact form .box {
+  padding: 1rem 1rem;
+  width: 100%;
+  background: none;
+  font-size: 1.2rem;
+  text-transform: none;
+  margin: 0.5rem 0;
+  border-radius: 0.2rem;
+  border: 1px solid grey;
+}
+
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: none;
+}
+
+.credits {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: #222;
+  background: gainsboro;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.credits i {
+  color: #222;
+  font-size: 0.7rem;
+}
+
+.contact-socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-socialIcons i {
+  font-size: 40px;
+  margin-right: 35px;
+  color: #222;
+}
+
+.contact-socialIcons i:hover {
+  transform: scale(1.4);
+}
+
+@media (max-width: 320px) {
+  .contact {
+    padding: 2rem;
+  }
+
+  .contact form {
+    margin: 0.8rem auto;
+    max-width: 18rem;
+    border-radius: 0.2rem;
+    padding: 1rem;
+  }
+
+  .contact form .box {
+    padding: 0.8rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .credits {
+    font-size: 0.7rem;
+  }
+
+  .credits i {
+    font-size: 0.7rem;
+  }
+  .contact-socialIcons i {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,53 @@
+.achievements {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.achievements .row .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: wrap;
+  margin: 3rem;
+}
+
+.achievements .row .box-container .box-achieve p,
+i {
+  font-size: 1.4rem;
+  color: #222;
+  line-height: 3rem;
+}
+
+.paperDesc {
+  line-height: 2.2rem !important;
+  max-width: 70rem;
+}
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .achievements .row .box-container .box-achieve p,
+  i {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .achievements .row .box-container {
+    margin: 0.4rem;
+  }
+
+  .achievements .row .box-container .box-achieve {
+    width: 18rem;
+  }
+  .achievements .row .box-container .box-achieve p,
+  i {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
